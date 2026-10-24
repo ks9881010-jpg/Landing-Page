@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-surface-variant": "#bbcabf", "surface-dim": "#111317", "surface-container-lowest": "#0c0e12", "on-secondary": "#2f3130", "inverse-primary": "#006c49", "surface-container": "#1e2024", "on-primary-fixed-variant": "#005236", "on-error": "#690005", "on-tertiary-fixed": "#2a1700", "surface-tint": "#4edea3", "on-primary": "#003824", "tertiary-fixed-dim": "#ffb95f", "on-secondary-fixed-variant": "#464746", "surface-bright": "#37393e", "background": "#111317", "surface-container-highest": "#333539", "inverse-surface": "#e2e2e8", "primary-container": "#10b981", "on-primary-container": "#00422b", "primary-fixed": "#6ffbbe", "error-container": "#93000a", "secondary-fixed-dim": "#c7c6c5", "secondary-container": "#484948", "on-secondary-container": "#b9b8b7", "outline-variant": "#3c4a42", "secondary-fixed": "#e3e2e0", "on-background": "#e2e2e8", "surface": "#111317", "inverse-on-surface": "#2f3035", "tertiary-container": "#e29100", "primary": "#4edea3", "on-secondary-fixed": "#1a1c1b", "on-tertiary-container": "#523200", "on-surface": "#e2e2e8", "primary-fixed-dim": "#4edea3", "on-primary-fixed": "#002113", "on-tertiary-fixed-variant": "#653e00", "tertiary": "#ffb95f", "surface-variant": "#333539", "error": "#ffb4ab", "outline": "#86948a", "surface-container-high": "#282a2e", "secondary": "#c7c6c5", "on-error-container": "#ffdad6", "surface-container-low": "#1a1c20", "tertiary-fixed": "#ffddb8", "on-tertiary": "#472a00" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-sm": "0.75rem", "gutter": "1.5rem", "space-xl": "3.5rem", "margin": "2rem", "gutter-sm": "1rem", "space-xs": "0.375rem", "space-lg": "2rem", "space-md": "1.25rem", "margin-mobile": "1.25rem", "gutter-lg": "2rem" }, "fontFamily": { "display-hero": [ "Playfair Display" ], "label-caps": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "headline-md": [ "Playfair Display" ], "display-hero-mobile": [ "Playfair Display" ], "body-lg": [ "Plus Jakarta Sans" ], "body-md": [ "Plus Jakarta Sans" ], "headline-sm": [ "Playfair Display" ], "headline-lg": [ "Playfair Display" ], "headline-lg-mobile": [ "Playfair Display" ], "body-sm": [ "Plus Jakarta Sans" ] }, "fontSize": { "display-hero": [ "64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "label-caps": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700" } ], "label-md": [ "13px", { "lineHeight": "18px", "fontWeight": "600" } ], "headline-md": [ "28px", { "lineHeight": "36px", "fontWeight": "600" } ], "display-hero-mobile": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "headline-sm": [ "22px", { "lineHeight": "30px", "fontWeight": "500" } ], "headline-lg": [ "44px", { "lineHeight": "52px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "headline-lg-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm shrink-0"><img alt="Kirti Sharma Monogram" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VA3dOpQ8J6us4oW6Jk8dGIvGPyHlW739bq5mqELxUU1JPUX0BiBnCcaf9LEWxFvEhQc8zbID5SKfHE-u8EAEO2CERPnkfJYGpW9FxN8i0_9t0QHnIufwXamvr6QQGeCEuGaX6R0wbbxm0xmzpSNkUQl43WrLOWwFcgqYPWM2ROQA3GR5Vel3XWX2T0yWEbZHzrDE_CyIpD4WpG1cvo8nn9ehNQi5XiVdJdX6MFzg0XW5UqJTVz9FIHsd8"/><a class="flex flex-col" data-path="portfolio" href="#"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Kirti Sharma</span><span class="font-label-caps text-label-caps uppercase text-on-surface-variant tracking-wider mt-0.5">Editorial &amp; PR</span></a></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-on-surface font-semibold underline decoration-primary underline-offset-8"><a aria-current="page" class="transition-colors py-space-xs relative text-on-surface font-semibold underline decoration-primary underline-offset-8" data-path="portfolio" href="#">About</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs relative" data-path="experience" href="#">Experience</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs relative" data-path="editorial-archive" href="#">Expertise</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs relative" data-path="case-studies" href="#">Press &amp; Media</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs relative" data-path="inquiries" href="#">Contact</a></nav><div class="flex items-center gap-space-md shrink-0"><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-low"><span class="w-2 h-2 rounded-full bg-primary animate-pulse shadow-[0_0_8px_rgba(78,222,163,0.7)]"></span><span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Available for Projects</span></div><a class="inline-flex items-center justify-center px-space-md py-space-xs rounded-xl bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all duration-200 shadow-[0_4px_16px_rgba(16,185,129,0.2)] hover:shadow-[0_8px_24px_rgba(16,185,129,0.3)]" data-path="inquiries" href="#">Let's Connect</a><div class="flex items-center pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_0_0_1px_rgba(226,226,232,0.1)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWP0xLVimZhyC1hq982Bwu18xDJjMNntgQvbIBZ0xcBZcBKZWlTtsq0Uxrwc1L_ETw5BYDVRYTM5CuRwLjcwA9xwxLJ2e11FrGlTaXLu7PUk-3VsDX5csP1aW5HKH5GvO3unNttTkjVAyBnAnidQGgAqKaFYmHlxpJ2WjrRycUqsKZSz5C6Bvxc7B4KShJm49plsuWulACro22mX7l7H8GgSiiPdxIvOOQntNqVoYqrFt2D6eyNmvOIg"/></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- Top Ambient Glow -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[720px] h-[340px] bg-primary/10 blur-[130px] rounded-full pointer-events-none"></div>
+<!-- HERO SECTION -->
+<section class="max-w-7xl mx-auto px-margin-mobile md:px-margin pt-space-lg pb-space-xl relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Hero Text Column -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- Eyebrow Badge -->
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-high w-fit shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse shadow-[0_0_8px_rgba(78,222,163,0.7)]"></span>
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface">Editor • SEO Storyteller • PR Strategist</span>
+</div>
+<!-- Main Serif Headline -->
+<h1 class="font-display-hero text-display-hero-mobile md:text-display-hero text-on-surface tracking-tight leading-[1.08]">
+            Crafting High-Ranking Stories &amp; Media Strategies That Move Audiences.
+          </h1>
+<!-- Crisp Subheadline -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Content Editor and SEO Specialist turning brand narratives into high-traffic digital media, organic reach, and authoritative corporate PR momentum.
+          </p>
+<!-- Action Row -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs">
+<a class="inline-flex items-center justify-center px-space-md py-3 rounded-xl bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all duration-200 shadow-[0_4px_20px_rgba(16,185,129,0.25)] hover:scale-[1.02]" href="#experience">
+              Explore Experience
+              <span class="material-symbols-outlined ml-1.5 text-[18px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center justify-center px-space-md py-3 rounded-xl bg-surface-container-high text-on-surface hover:bg-surface-bright font-label-md text-label-md transition-all duration-200 shadow-sm" href="https://linkedin.com/in/kirti-sharma-editor" rel="noopener noreferrer" target="_blank">
+              View LinkedIn
+              <span class="material-symbols-outlined ml-1.5 text-[16px] text-primary">arrow_outward</span>
+</a>
+<a class="inline-flex items-center justify-center px-space-sm py-3 rounded-xl bg-surface-container-low text-on-surface-variant hover:text-on-surface font-label-caps text-label-caps uppercase tracking-wider transition-colors" href="#inquiry">
+<span class="material-symbols-outlined mr-1 text-[16px]">newspaper</span>
+              Review Media Kit
+            </a>
+</div>
+<!-- Meta Context & Location -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs text-on-surface-variant">
+<div class="flex items-center gap-1.5 bg-surface-container px-3 py-1.5 rounded-full text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-tertiary">location_on</span>
+<span>Based in Ghaziabad, UP, India</span>
+</div>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-3 py-1 rounded-full bg-surface-container-low font-label-caps text-label-caps uppercase text-on-surface-variant">SEO Optimization</span>
+<span class="px-3 py-1 rounded-full bg-surface-container-low font-label-caps text-label-caps uppercase text-on-surface-variant">Digital Media</span>
+<span class="px-3 py-1 rounded-full bg-surface-container-low font-label-caps text-label-caps uppercase text-on-surface-variant">PR Management</span>
+<span class="px-3 py-1 rounded-full bg-surface-container-low font-label-caps text-label-caps uppercase text-on-surface-variant">Editorial Direction</span>
+</div>
+</div>
+</div>
+<!-- Hero Editorial Portrait & Live Metrics Block -->
+<div class="lg:col-span-5 flex flex-col items-center justify-center relative">
+<!-- Ambient Card Backing -->
+<div class="relative w-full max-w-md bg-surface-container-low rounded-2xl p-space-sm shadow-xl">
+<!-- Portrait Container -->
+<div class="relative rounded-xl overflow-hidden aspect-square bg-surface-container-highest shadow-inner">
+<img alt="Kirti Sharma editorial studio portrait" class="w-full h-full object-cover object-center filter contrast-[1.04] brightness-95" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWP0xLVimZhyC1hq982Bwu18xDJjMNntgQvbIBZ0xcBZcBKZWlTtsq0Uxrwc1L_ETw5BYDVRYTM5CuRwLjcwA9xwxLJ2e11FrGlTaXLu7PUk-3VsDX5csP1aW5HKH5GvO3unNttTkjVAyBnAnidQGgAqKaFYmHlxpJ2WjrRycUqsKZSz5C6Bvxc7B4KShJm49plsuWulACro22mX7l7H8GgSiiPdxIvOOQntNqVoYqrFt2D6eyNmvOIg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-transparent to-transparent opacity-80"></div>
+<!-- Magazine Caption Overlay -->
+<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between backdrop-blur-md bg-surface-container-lowest/80 px-3.5 py-2.5 rounded-lg shadow-md">
+<div class="flex flex-col">
+<span class="font-headline-sm text-[16px] text-on-surface leading-snug">Kirti Sharma</span>
+<span class="font-label-caps text-[10px] uppercase tracking-wider text-on-surface-variant">Editorial Oversight &amp; Brand Voice</span>
+</div>
+<div class="w-2.5 h-2.5 rounded-full bg-primary animate-ping"></div>
+</div>
+</div>
+<!-- Embedded Horizontal Metrics Bar -->
+<div class="grid grid-cols-3 gap-2 mt-3 pt-1 text-center">
+<div class="p-2.5 rounded-lg bg-surface-container">
+<div class="font-headline-sm text-headline-sm text-primary font-bold">100+</div>
+<div class="font-label-caps text-[10px] text-on-surface-variant uppercase mt-0.5">Curated Articles</div>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container">
+<div class="font-headline-sm text-headline-sm text-tertiary font-bold">Top 1%</div>
+<div class="font-label-caps text-[10px] text-on-surface-variant uppercase mt-0.5">SERP Placements</div>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container">
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold">2+ Yrs</div>
+<div class="font-label-caps text-[10px] text-on-surface-variant uppercase mt-0.5">Media Impact</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 01: ARCHITECTURE OF THOUGHT / BENTO GRID -->
+<section class="max-w-7xl mx-auto px-margin-mobile md:px-margin py-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps uppercase text-primary tracking-widest">01 / ARCHITECTURE OF THOUGHT</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mt-1">
+            Strategic editorial vision meets analytical execution.
+          </h2>
+</div>
+<div class="hidden md:flex items-center gap-2 text-on-surface-variant font-label-caps text-label-caps uppercase">
+<span>Editorial Matrix</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span>Verified Insight</span>
+</div>
+</div>
+<!-- Bento Grid (4 Asymmetrical Cards) -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Card 1: Wide Feature Card (8 Columns) -->
+<div class="md:col-span-8 bg-surface-container-low rounded-2xl p-space-lg relative overflow-hidden flex flex-col justify-between shadow-md hover:bg-surface-container transition-all duration-300">
+<div class="relative z-10 flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-primary bg-primary/10 px-3 py-1 rounded-full">Core Methodology</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[22px]">auto_stories</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface max-w-xl">
+              Specializing in digital media storytelling, keyword-driven architecture, and corporate PR.
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl leading-relaxed">
+              Bridging creative narrative depth with quantifiable search visibility. Every editorial initiative is engineered to penetrate high-intent audience segments while upholding the highest journalistic and institutional standards.
+            </p>
+</div>
+<!-- Editorial Inline Visual Sparkline / Bar visualization -->
+<div class="relative z-10 mt-space-md pt-space-sm bg-surface-container-lowest/80 p-4 rounded-xl flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">trending_up</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[15px] text-on-surface font-semibold">Organic Velocity Index</span>
+<span class="font-label-caps text-[11px] text-on-surface-variant uppercase">340% Avg Impressions Uplift in 90 Days</span>
+</div>
+</div>
+<!-- Minimal SVG Chart -->
+<svg class="h-8 w-28 text-primary overflow-visible" fill="none" viewbox="0 0 100 28">
+<path d="M0 22 C 20 20, 25 24, 40 14 C 55 4, 70 12, 85 5 L 100 2" stroke="currentColor" stroke-linecap="round" stroke-width="2.5"></path>
+<circle cx="100" cy="2" fill="currentColor" r="3"></circle>
+</svg>
+</div>
+</div>
+<!-- Card 2: Marketing Foundation (4 Columns) -->
+<div class="md:col-span-4 bg-surface-container-low rounded-2xl p-space-lg flex flex-col justify-between shadow-md hover:bg-surface-container transition-all duration-300">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-tertiary bg-tertiary/10 px-3 py-1 rounded-full">Academic Angle</span>
+<span class="material-symbols-outlined text-tertiary text-[22px]">school</span>
+</div>
+<h3 class="font-headline-md text-headline-sm text-on-surface">
+              BBA in Marketing Acumen
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Graduating from Chaudhary Charan Singh University — marrying strategic business acumen with creative content strategy to drive brand loyalty and resonance.
+            </p>
+</div>
+<div class="mt-4 pt-3 text-body-sm text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-primary">verified</span>
+<span>Strategic Consumer Psychology</span>
+</div>
+</div>
+<!-- Card 3: Multilingual Reach (5 Columns) -->
+<div class="md:col-span-5 bg-surface-container-low rounded-2xl p-space-lg flex flex-col justify-between shadow-md hover:bg-surface-container transition-all duration-300">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant bg-surface-container px-3 py-1 rounded-full">Pan-Indian &amp; Global</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[22px]">translate</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">
+              Bilingual Editorial Fluency
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Native proficiency in <span class="text-on-surface font-medium">Hindi</span> &amp; professional working fluency in <span class="text-on-surface font-medium">English</span> — shaping nuanced cultural narratives across diverse pan-Indian and global reader demographics.
+            </p>
+</div>
+<div class="flex items-center gap-2 mt-4">
+<span class="px-3 py-1 rounded-full bg-surface-container text-body-sm text-on-surface font-medium">Hindi (Native)</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-body-sm text-on-surface font-medium">English (Professional)</span>
+</div>
+</div>
+<!-- Card 4: Verified Encyclopedia Media Entity (7 Columns) -->
+<div class="md:col-span-7 bg-surface-container-low rounded-2xl p-space-lg flex flex-col justify-between shadow-md hover:bg-surface-container transition-all duration-300 relative">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 text-primary font-label-caps text-label-caps uppercase">
+<span class="material-symbols-outlined text-[15px]">verified_user</span>
+                Verified Editorial Entity
+              </div>
+<span class="font-label-caps text-[11px] uppercase tracking-wider text-on-surface-variant">Digital Encyclopedia</span>
+</div>
+<h3 class="font-headline-md text-headline-sm md:text-headline-md text-on-surface">
+              Documented on Knowlepedia
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Officially cataloged biographical and editorial entity entry recognizing contributions to regional media distribution, corporate brand communications, and digital publishing leadership.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-surface-container-lowest/80 p-3.5 rounded-xl">
+<div class="flex items-center gap-2 truncate">
+<span class="material-symbols-outlined text-primary text-[20px]">public</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">knowlepedia.org/wiki/Kirti_Sharma</span>
+</div>
+<a class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-on-surface font-label-md text-label-md transition-colors shrink-0" href="https://knowlepedia.org/wiki/Kirti_Sharma" rel="noopener noreferrer" target="_blank">
+              Open Profile
+              <span class="material-symbols-outlined ml-1 text-[16px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 02: CORE COMPETENCIES & EXPERTISE -->
+<section class="max-w-7xl mx-auto px-margin-mobile md:px-margin py-space-xl">
+<div class="flex flex-col mb-space-lg">
+<span class="font-label-caps text-label-caps uppercase text-primary tracking-widest">02 / EXPERTISE &amp; DISCIPLINES</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mt-1">
+          Engineered for high organic reach and brand authority.
+        </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Service Card 1 -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col justify-between shadow-md hover:bg-surface-container transition-all duration-200 group">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary group-hover:scale-105 transition-transform mb-space-sm">
+<span class="material-symbols-outlined text-[26px]">edit_note</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Content Editing &amp; Storytelling</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Auditing, structural copyediting, proofreading, editorial line-management, and narrative voice development for premium publications.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 mt-space-md pt-2">
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-caps text-[10px] text-on-surface-variant">Editorial Tone</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-caps text-[10px] text-on-surface-variant">Deep Copyediting</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-caps text-[10px] text-on-surface-variant">Content Audits</span>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col justify-between shadow-md hover:bg-surface-container transition-all duration-200 group">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary group-hover:scale-105 transition-transform mb-space-sm">
+<span class="material-symbols-outlined text-[26px]">query_stats</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">SEO &amp; Keyword Architecture</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Search intent mapping, high-volume keyword discovery, on-page content architecture, meta taxonomy, and competitive SERP domination.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 mt-space-md pt-2">
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-caps text-[10px] text-on-surface-variant">Keyword Research</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-caps text-[10px] text-on-surface-variant">SERP Strategy</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-caps text-[10px] text-on-surface-variant">On-Page SEO</span>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col justify-between shadow-md hover:bg-surface-container transition-all duration-200 group">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary group-hover:scale-105 transition-transform mb-space-sm">
+<span class="material-symbols-outlined text-[26px]">campaign</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Corporate PR &amp; Media Outreach</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Press release authoring, publication liaison, executive positioning, brand sentiment monitoring, and crisis PR buffer management.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 mt-space-md pt-2">
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-caps text-[10px] text-on-surface-variant">Press Releases</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-caps text-[10px] text-on-surface-variant">Media Relations</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-caps text-[10px] text-on-surface-variant">Brand Voice</span>
+</div>
+</div>
+<!-- Service Card 4 -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col justify-between shadow-md hover:bg-surface-container transition-all duration-200 group">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary group-hover:scale-105 transition-transform mb-space-sm">
+<span class="material-symbols-outlined text-[26px]">share</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Social Strategy &amp; Growth</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Multi-platform corporate storytelling, engagement loops, audience retention, and high-conversion editorial copy for LinkedIn channels.
+            </p>
+</div>
+<div class="flex flex-wrap gap-1.5 mt-space-md pt-2">
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-caps text-[10px] text-on-surface-variant">LinkedIn Authority</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-caps text-[10px] text-on-surface-variant">Audience Loops</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-caps text-[10px] text-on-surface-variant">Viral Copywriting</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 03: CAREER TIMELINE / TRACK RECORD -->
+<section class="max-w-7xl mx-auto px-margin-mobile md:px-margin py-space-xl" id="experience">
+<div class="flex flex-col mb-space-lg">
+<span class="font-label-caps text-label-caps uppercase text-primary tracking-widest">03 / TRACK RECORD</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mt-1">
+          Editorial oversight and measurable digital momentum.
+        </h2>
+</div>
+<!-- Timeline Container -->
+<div class="relative flex flex-col gap-space-lg">
+<!-- Role 1: Current Active Role -->
+<div class="bg-surface-container-low rounded-2xl p-space-lg shadow-md relative overflow-hidden">
+<div class="flex flex-col lg:flex-row lg:items-start justify-between gap-space-md">
+<div class="flex flex-col">
+<div class="flex flex-wrap items-center gap-2 mb-2">
+<span class="px-3 py-0.5 rounded-full bg-primary/10 text-primary font-label-caps text-label-caps uppercase flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+                  Active Role
+                </span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Nov 2025 – Present</span>
+<span class="text-on-surface-variant">•</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ghaziabad, India</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Editor &amp; PR Manager</h3>
+<div class="font-body-lg text-body-lg text-primary mt-0.5">Trilok Media</div>
+</div>
+<!-- Role Tags -->
+<div class="flex flex-wrap gap-2 lg:max-w-xs lg:justify-end">
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-caps text-label-caps uppercase text-on-surface-variant">Media Relations</span>
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-caps text-label-caps uppercase text-on-surface-variant">Editorial Oversight</span>
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-caps text-label-caps uppercase text-on-surface-variant">PR Campaigns</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs text-body-md text-on-surface-variant space-y-2.5 max-w-4xl">
+<p>
+              Directing the overarching content pipeline across multi-tiered media platforms. Spearheading SEO audits, news desk releases, and editorial copy for corporate clients, resulting in significant organic search growth.
+            </p>
+<p>
+              Building targeted journalist relations and securing impactful placements across prominent digital publications to solidify institutional authority.
+            </p>
+</div>
+</div>
+<!-- Role 2: To-Let Globe -->
+<div class="bg-surface-container-low rounded-2xl p-space-lg shadow-md relative overflow-hidden">
+<div class="flex flex-col lg:flex-row lg:items-start justify-between gap-space-md">
+<div class="flex flex-col">
+<div class="flex flex-wrap items-center gap-2 mb-2">
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Nov 2023 – Jan 2024</span>
+<span class="text-on-surface-variant">•</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Lucknow, India (Hybrid)</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Social Media Manager</h3>
+<div class="font-body-lg text-body-lg text-secondary mt-0.5">To-Let Globe</div>
+</div>
+<!-- Role Tags -->
+<div class="flex flex-wrap gap-2 lg:max-w-xs lg:justify-end">
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-caps text-label-caps uppercase text-on-surface-variant">Content Strategy</span>
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-caps text-label-caps uppercase text-on-surface-variant">Audience Growth</span>
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-caps text-label-caps uppercase text-on-surface-variant">Brand Outreach</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs text-body-md text-on-surface-variant space-y-2.5 max-w-4xl">
+<p>
+              Orchestrated structured weekly editorial calendars, creative messaging arcs, and promotional storytelling across visual channels. Elevated community interaction metrics and amplified regional presence.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 04: ACADEMIC FOUNDATION -->
+<section class="max-w-7xl mx-auto px-margin-mobile md:px-margin py-space-xl">
+<div class="flex flex-col mb-space-lg">
+<span class="font-label-caps text-label-caps uppercase text-primary tracking-widest">04 / ACADEMIC FOUNDATION</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mt-1">
+          Rooted in marketing strategy and humanist expression.
+        </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- University Degree Card -->
+<div class="bg-surface-container-low rounded-2xl p-space-lg shadow-md flex flex-col justify-between">
+<div class="flex flex-col">
+<div class="flex items-center justify-between mb-3">
+<span class="px-3 py-1 rounded-full bg-primary/10 text-primary font-label-caps text-label-caps uppercase">Degree Program</span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">2022 – 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Bachelor of Business Administration (BBA)</h3>
+<div class="font-body-md text-body-md text-primary mt-1">Chaudhary Charan Singh University</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4 leading-relaxed">
+              Specialized in Marketing Management, Consumer Behavior Analysis, and Strategic Communication Dynamics. Synthesizing data-backed marketing paradigms with creative media writing.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-2 text-on-surface-variant text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-primary">analytics</span>
+<span>Focus: Brand Positioning &amp; Market Research</span>
+</div>
+</div>
+<!-- Schooling Card -->
+<div class="bg-surface-container-low rounded-2xl p-space-lg shadow-md flex flex-col justify-between">
+<div class="flex flex-col">
+<div class="flex items-center justify-between mb-3">
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps uppercase">Foundational Education</span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">CBSE Board</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Senior Secondary &amp; Secondary (Arts)</h3>
+<div class="font-body-md text-body-md text-secondary mt-1">Central Board of Secondary Education</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4 leading-relaxed">
+              Completed Senior Secondary education (Arts stream, 2022) and Secondary education (2020) with deep emphasis on literature, critical discourse, and written media articulation.
+            </p>
+</div>
+<div class="mt-space-md pt-2 flex items-center gap-2 text-on-surface-variant text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-tertiary">history_edu</span>
+<span>Focus: Creative Composition &amp; Discourse</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 05: HIGH-CONVERSION CONTACT & INQUIRY SUITE -->
+<section class="max-w-7xl mx-auto px-margin-mobile md:px-margin py-space-xl mb-space-lg" id="inquiry">
+<div class="bg-surface-container-low rounded-3xl p-space-md md:p-space-xl shadow-xl relative overflow-hidden">
+<!-- Background Ambient Accents -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-primary/10 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter relative z-10">
+<!-- Left Column: Details & Quick Links -->
+<div class="lg:col-span-6 flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<span class="font-label-caps text-label-caps uppercase text-primary tracking-widest">05 / COLLABORATE</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface leading-tight">
+                Have a story to tell or a brand to elevate? Let's talk.
+              </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+                Available for strategic editorial commissions, full-scale corporate PR campaigns, SEO content audits, and leadership ghostwriting.
+              </p>
+<!-- Live Status Pill -->
+<div class="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-surface-container w-fit mt-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary animate-ping"></span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Accepting editorial retainers &amp; PR projects</span>
+</div>
+</div>
+<!-- Interactive Direct Contacts Suite -->
+<div class="flex flex-col gap-3 mt-space-lg">
+<!-- Email Copy Card with Interactive Tooltip -->
+<div class="bg-surface-container p-3.5 rounded-xl flex items-center justify-between gap-3 shadow-sm">
+<div class="flex items-center gap-3 truncate">
+<div class="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</div>
+<div class="flex flex-col truncate">
+<span class="font-label-caps text-[10px] uppercase text-on-surface-variant">Direct Mail</span>
+<span class="font-body-md text-body-md text-on-surface font-medium truncate" id="email-text">ks9881010@gmail.com</span>
+</div>
+</div>
+<div class="flex items-center gap-2 shrink-0">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1 relative" id="copy-email-btn" type="button">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+<span id="copy-btn-label">Copy</span>
+</button>
+<a class="p-2 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface transition-colors" href="mailto:ks9881010@gmail.com" title="Open Mail App">
+<span class="material-symbols-outlined text-[18px]">send</span>
+</a>
+</div>
+</div>
+<!-- Toast feedback banner (hidden by default) -->
+<div class="hidden font-label-caps text-label-caps text-primary bg-primary/10 px-3 py-1.5 rounded-lg text-center transition-all" id="copy-toast">
+                Copied to clipboard! Ready to paste.
+              </div>
+<!-- LinkedIn & Knowlepedia Shortcut Links -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<a class="p-3.5 rounded-xl bg-surface-container hover:bg-surface-bright flex items-center justify-between transition-colors shadow-sm" href="https://linkedin.com/in/kirti-sharma-editor" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-[20px] text-primary">badge</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">LinkedIn Profile</span>
+</div>
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">arrow_outward</span>
+</a>
+<a class="p-3.5 rounded-xl bg-surface-container hover:bg-surface-bright flex items-center justify-between transition-colors shadow-sm" href="https://knowlepedia.org/wiki/Kirti_Sharma" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-[20px] text-tertiary">menu_book</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Knowlepedia Wiki</span>
+</div>
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Right Column: Micro-Inquiry Form -->
+<div class="lg:col-span-6 bg-surface-container p-space-md md:p-space-lg rounded-2xl shadow-inner">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">Send a Brief</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Share details about your publication, press release, or SEO needs. Responses delivered within 24 hours.
+            </p>
+<form class="flex flex-col gap-space-sm" id="contact-form" onsubmit="event.preventDefault(); document.getElementById('form-success').classList.remove('hidden'); this.reset();">
+<div>
+<label class="block font-label-caps text-label-caps uppercase text-on-surface-variant mb-1.5">Your Name</label>
+<input class="w-full bg-surface-container-low px-4 py-3 rounded-xl text-on-surface text-body-md placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary transition-all" placeholder="e.g. Elena Rostova" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-caps text-label-caps uppercase text-on-surface-variant mb-1.5">Email Address</label>
+<input class="w-full bg-surface-container-low px-4 py-3 rounded-xl text-on-surface text-body-md placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary transition-all" placeholder="name@organization.com" required="" type="email"/>
+</div>
+<div>
+<label class="block font-label-caps text-label-caps uppercase text-on-surface-variant mb-1.5">Service Required</label>
+<select class="w-full bg-surface-container-low px-4 py-3 rounded-xl text-on-surface text-body-md focus:outline-none focus:ring-1 focus:ring-primary transition-all">
+<option value="editorial">Editorial Oversight &amp; Copyediting</option>
+<option value="pr">Corporate PR &amp; Media Placement</option>
+<option value="seo">SEO Architecture &amp; Content Audit</option>
+<option value="retainer">Full Retainer Advisory</option>
+</select>
+</div>
+<div>
+<label class="block font-label-caps text-label-caps uppercase text-on-surface-variant mb-1.5">Project Scope / Timeline</label>
+<textarea class="w-full bg-surface-container-low px-4 py-3 rounded-xl text-on-surface text-body-md placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary transition-all resize-none" placeholder="Outline the core editorial goals, target timeline, and publication format..." required="" rows="3"></textarea>
+</div>
+<button class="w-full py-3.5 rounded-xl bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all duration-200 shadow-md flex items-center justify-center gap-2 mt-2" type="submit">
+<span>Dispatch Editorial Inquiry</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+<div class="hidden p-3 rounded-xl bg-primary/10 text-primary text-center font-body-sm mt-2" id="form-success">
+                Thank you! Your message has been routed to Kirti Sharma's priority desk.
+              </div>
+</form>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- Vanilla JS for 1-Click Clipboard Copying -->
+<script>
+  (function initClipboard() {
+    const copyBtn = document.getElementById('copy-email-btn');
+    const toast = document.getElementById('copy-toast');
+    const label = document.getElementById('copy-btn-label');
+    const emailToCopy = 'ks9881010@gmail.com';
+
+    if (copyBtn) {
+      copyBtn.addEventListener('click', function () {
+        navigator.clipboard.writeText(emailToCopy).then(() => {
+          if (label) label.textContent = 'Copied!';
+          if (toast) {
+            toast.classList.remove('hidden');
+            setTimeout(() => {
+              toast.classList.add('hidden');
+              if (label) label.textContent = 'Copy';
+            }, 3000);
+          }
+        }).catch(() => {
+          // Fallback
+          window.location.href = 'mailto:' + emailToCopy;
+        });
+      });
+    }
+  })();
+</script></main><footer class="w-full bg-surface-container-lowest mt-space-xl"><div class="max-w-7xl mx-auto px-margin-mobile md:px-margin py-space-xl flex flex-col md:flex-row items-center justify-between gap-gutter"><div class="flex flex-col items-center md:items-start gap-space-xs"><div class="flex items-center gap-space-sm"><img alt="Kirti Sharma Monogram" class="h-6 w-auto object-contain opacity-80" src="https://lh3.googleusercontent.com/aida/AEtjO1VA3dOpQ8J6us4oW6Jk8dGIvGPyHlW739bq5mqELxUU1JPUX0BiBnCcaf9LEWxFvEhQc8zbID5SKfHE-u8EAEO2CERPnkfJYGpW9FxN8i0_9t0QHnIufwXamvr6QQGeCEuGaX6R0wbbxm0xmzpSNkUQl43WrLOWwFcgqYPWM2ROQA3GR5Vel3XWX2T0yWEbZHzrDE_CyIpD4WpG1cvo8nn9ehNQi5XiVdJdX6MFzg0XW5UqJTVz9FIHsd8"/><span class="font-headline-sm text-headline-sm text-on-surface">Kirti Sharma</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Senior Content Strategist, Culture Editor &amp; Media PR Specialist.</p></div><div class="flex flex-wrap items-center justify-center gap-space-lg text-center"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="portfolio" href="#">About</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="experience" href="#">Experience</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="editorial-archive" href="#">Editorial Archive</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="case-studies" href="#">PR Campaigns</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="inquiries" href="#">Press Inquiries</a></div><div class="flex flex-col items-center md:items-end gap-space-xs"><div class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-primary"></span><span class="font-label-caps text-label-caps uppercase text-on-surface-variant tracking-wider">New Delhi • London • Remote</span></div><p class="font-body-sm text-body-sm text-on-surface-variant opacity-60">© 2025 Kirti Sharma. All editorial and PR materials reserved.</p></div></div></footer></body></html>
